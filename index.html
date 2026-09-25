@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Working with AI</title>
+  <style>
+    :root {
+      --ink: #1c1917;
+      --line: #e7e5e4;
+      --paper: #f7f4ef;
+      --card: #fffcf7;
+      --navy: #1e3a5f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+    .wrap { max-width: 40rem; margin: 0 auto; padding: 28px 18px 64px; }
+    h1 {
+      font-size: 1.7rem;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+    }
+    .rule {
+      background: #e8eef5;
+      border: 1px solid #c5d4e8;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 0 0 14px;
+      color: var(--navy);
+      font-weight: 650;
+    }
+    ul, ol { margin: 0 0 14px; padding-left: 1.15rem; }
+    li { margin: 0.45rem 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px 8px;
+      margin: 0 0 14px;
+    }
+    p { margin: 0 0 12px; }
+    @media (max-width: 420px) {
+      body { font-size: 16.5px; }
+      .wrap { padding: 20px 14px 48px; }
+    }
+    @media print {
+      body { background: #fff; font-size: 12pt; }
+      .wrap { max-width: none; padding: 0; }
+      .rule, .card { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Working with AI</h1>
+    <p>The main risk is a confident answer that is not in the documents. Check the work every time, before it goes anywhere.</p>
+    <p class="rule">Every claim needs the page number it came from. If it cannot give the page number, leave that claim out.</p>
+    <div class="card">
+      <ul>
+        <li><strong>An RFI going out.</strong> One question, the drawing, the spec section, and the answer that would unblock the work.</li>
+        <li><strong>A thread coming back.</strong> What is still open, what was already answered, and which sheet it points at.</li>
+        <li><strong>A submittal.</strong> What the spec requires, what they sent, and where the two conflict.</li>
+        <li><strong>An addendum.</strong> What changed from the set already priced, sheet by sheet, before anyone reprices from memory.</li>
+        <li><strong>Two sub numbers.</strong> What is in, what is out, the allowances, and anything left unpriced. A similar total is not a similar scope.</li>
+        <li><strong>A change that has to get paid.</strong> What sits outside the contract, the field proof, the cost basis, and the days.</li>
+        <li><strong>A contract against the drawings.</strong> Pay, notice, time, exclusions, and where the exhibit and the sheets disagree.</li>
+        <li><strong>The note before a meeting.</strong> Cost, schedule, the risks that can still move, and the decisions needed. Tie each line to a record, then edit it before it goes up.</li>
+      </ul>
+    </div>
+    <p>Keep one job in the chat, and attach the files that would change the answer.</p>
+    <p>Read every sentence you will send against the page it cites.</p>
+    <p>A quantity, a pay-app figure, or a bid number comes from the sheet, or from the person who measured it.</p>
+  </main>
+</body>
+</html>
